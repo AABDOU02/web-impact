@@ -21,18 +21,18 @@ function UserList() {
         const data = await response.json();
         if (Array.isArray(data)) {
           setUsers(data);
-          setLoading(false);
+          
         } else if (typeof data === 'object' && data.users) {
          
           setUsers(data.users);
-          setLoading(false);
+          
         } else {
           throw new Error('Invalid data format');
         }
       } catch (error) {
         console.error('Error fetching users:', error.message);
         setError(error);
-        setLoading(false);
+        
       }
     };
 
