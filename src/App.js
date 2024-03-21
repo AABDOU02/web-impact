@@ -10,6 +10,7 @@ function App() {
   return (
     <Router>
       <Navbar />
+    <UserList />
       <Switch>
        <Route exact path="/" component={UserList} /> 
         <Route path="/users" component={UserList} /> 
