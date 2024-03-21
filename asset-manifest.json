@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/web-impact/static/css/main.48937fb3.chunk.css",
-    "main.js": "/web-impact/static/js/main.2ea24b09.chunk.js",
-    "main.js.map": "/web-impact/static/js/main.2ea24b09.chunk.js.map",
+    "main.css": "/web-impact/static/css/main.c81ff1fb.chunk.css",
+    "main.js": "/web-impact/static/js/main.02012d5c.chunk.js",
+    "main.js.map": "/web-impact/static/js/main.02012d5c.chunk.js.map",
     "runtime-main.js": "/web-impact/static/js/runtime-main.4b9525e4.js",
     "runtime-main.js.map": "/web-impact/static/js/runtime-main.4b9525e4.js.map",
     "static/css/2.1fb90f1e.chunk.css": "/web-impact/static/css/2.1fb90f1e.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.b8ce64d6.chunk.js.map": "/web-impact/static/js/2.b8ce64d6.chunk.js.map",
     "index.html": "/web-impact/index.html",
     "static/css/2.1fb90f1e.chunk.css.map": "/web-impact/static/css/2.1fb90f1e.chunk.css.map",
-    "static/css/main.48937fb3.chunk.css.map": "/web-impact/static/css/main.48937fb3.chunk.css.map",
+    "static/css/main.c81ff1fb.chunk.css.map": "/web-impact/static/css/main.c81ff1fb.chunk.css.map",
     "static/js/2.b8ce64d6.chunk.js.LICENSE.txt": "/web-impact/static/js/2.b8ce64d6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4b9525e4.js",
     "static/css/2.1fb90f1e.chunk.css",
     "static/js/2.b8ce64d6.chunk.js",
-    "static/css/main.48937fb3.chunk.css",
-    "static/js/main.2ea24b09.chunk.js"
+    "static/css/main.c81ff1fb.chunk.css",
+    "static/js/main.02012d5c.chunk.js"
   ]
 }
