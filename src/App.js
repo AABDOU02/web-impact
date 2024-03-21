@@ -11,9 +11,10 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-       
-        <Route path="/users" component={UserList} />
-        <Route path="/statistics" component={StatisticPage} />
+      <Route path="/." component={UserList} />
+
+        <Route path="/web-impact/users" component={UserList} />
+        <Route path="/web-impact/statistics" component={StatisticPage} />
       </Switch>
       <Footer />
     </Router>
