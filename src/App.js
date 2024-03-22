@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import UserList from './UserList'; // Import your UserList component
 import StatisticPage from './StatisticPage'; // Import other components as needed
 import Navbar from './Navbar'
