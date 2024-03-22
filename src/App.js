@@ -1,24 +1,24 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Navbar from './Navbar';
-import UserList from './UserList';
-import StatisticPage from './StatisticPage';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import UserList from './UserList'; // Import your UserList component
+import StatisticPage from './StatisticPage'; // Import other components as needed
+import Navbar from './Navbar'
 import Footer from './footer';
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Navbar />
-    <UserList />
       <Switch>
-       <Route exact path="/" component={UserList} /> 
-        <Route path="/users" component={UserList} /> 
-        <Route path="/statistics" component={StatisticPage} />
+        <Route exact path="/web-impact" component={UserList} />
+        <Route path="/web-impact/users" component={UserList} />
+        <Route path="/web-impact/statistics" component={StatisticPage} />
+        
+       
       </Switch>
       <Footer />
     </Router>
   );
-}
+};
 
 export default App;
