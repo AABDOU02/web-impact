@@ -5,7 +5,6 @@ import './UserList.css'; //import { BsPersonBoundingBox } from "react-icons/bs";
 
 function UserList() {
   const [users, setUsers] = useState([]);
-  const [ setLoading] = useState(true);
   const [ setError] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
   const [selectedUser, setSelectedUser] = useState(null);
