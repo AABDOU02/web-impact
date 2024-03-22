@@ -30,7 +30,7 @@
    "deploy": "gh-pages -b master -d build",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://aabdou02.github.io/web-impact/",
+  "homepage": "https://aabdou02.github.io/",
   "eslintConfig": {
     "extends": [
       "react-app",
